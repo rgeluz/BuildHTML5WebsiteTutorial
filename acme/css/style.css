@@ -27,7 +27,7 @@ ul{
   border: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #ffffff;
+  color: #ffffff;$
 }
 
 .dark{
@@ -146,11 +146,26 @@ aside#sidebar{
   margin-top:10px;
 }
 
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding: 5px;
+}
+
 /* Main-col */
 article#main-col{
   float: left;
   width: 65%;
 }
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
 footer {
   padding: 20px;
   margin-top:20px;
